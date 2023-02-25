@@ -16,6 +16,7 @@ st.title("Todo App")
 st.subheader("This my todo app.")
 st.write("This app to increase my <b>productivity</b>", unsafe_allow_html=True)
 
+
 st.text_input(label="",
               placeholder="Add new todo...",
               key="new_todo",
